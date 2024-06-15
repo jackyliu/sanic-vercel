@@ -1,3 +1,2 @@
 sanic
 asyncpg
-pkg_resources
