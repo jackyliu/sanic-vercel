@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    // 指定构建源文件的规则
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    // 定义路由规则
+    {
+      "src": "/(.*)",
+      "dest": "api/index.py"
+    }
+  ]
+}
