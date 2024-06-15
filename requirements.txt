@@ -1,4 +1,3 @@
-sanic==20.12.7
+sanic
 asyncpg
-requests
 setuptools
