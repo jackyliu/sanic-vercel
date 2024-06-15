@@ -1,2 +1,4 @@
 sanic
 asyncpg
+pkg_resources
+requests
