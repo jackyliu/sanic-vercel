@@ -6,12 +6,15 @@
       "use": "@vercel/python"
     }
   ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "api/index.py"
+  "functions": {
+    "api/index.py": {
+      "includeFiles": [
+        "_utils/**",
+        "other_functions/**"
+      ]
     }
-  ],
+  },
+  "routes": [{ "src": "/", "dest": "api/index.py" }],
   "env": {
       "PYTHONPATH": "api/"
   }
