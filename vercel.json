@@ -1,11 +1,8 @@
 {
-  "functions": {
-    "api/index.py": {
-      "includeFiles": [
-        "_utils/**",
-        "other_functions/**"
-      ]
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "api/index.py"
     }
-  },
-  "routes": [{ "src": "/", "dest": "api/index.py" }]
+  ]
 }
