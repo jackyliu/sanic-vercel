@@ -1,6 +1,6 @@
 # Vercel of Sanic
 
-> 官方文档: [Vercel](https://vercel.com/docs/functions/runtimes/python#asynchronous-server-gateway-interface) | [Sanic](https://sanic.dev/en)
+> 官方文档:  [Vercel](https://vercel.com/docs/functions/runtimes/python#asynchronous-server-gateway-interface) | [Sanic](https://sanic.dev/en)
 
 
 ## Deploy
