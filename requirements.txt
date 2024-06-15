@@ -1,3 +1,4 @@
 sanic
 asyncpg
 setuptools
+requests
